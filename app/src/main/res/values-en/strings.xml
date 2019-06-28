@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">Countries</string>
+        <string name="banner_ad_unit_id">ca-app-pub-2367630010898474/9205759169</string>
+        <string name="app_name_activity">Countries</string>
+        <string name="action_settings">Settings</string>
+        <string name="hakkinda">About</string>
+        <string name="acik">Open</string>
+        <string name="kapali">Close</string>
+
+        <string name="rate_app">Rate this app</string>
+        <string name="contact_us">Contact us</string>
+        <string name="all_app">See all app</string>
+        <string name="share_app">Suggest this app</string>
+
+        <string name="text_close">Closing Activity</string>
+        <string name="text_close_message">Are you sure you want to close this activity ?</string>
+        <string name="text_close_yes">Yes</string>
+        <string name="text_close_no">No</string>
+
+        <string name="action_about">Note</string>
+        <string name="action_about_text">Under construction</string>
+        <string name="action_ok">OK</string>
+
+    <string name="info_message" formatted="false">
+        <![CDATA[
+        This application contains the detailed information about the countries.
+        ]]>
+       </string>
+    <string name="text_version">v.1.0.5</string>
+
+    <string name="ranklabel">"No : "</string>
+    <string name="countrylabel">"Area : "</string>
+    <string name="populationlabel">"Population : "</string>
+    <string name="ecztel">"Capital : "</string>
+    <string name="eczadr">"Subregion : "</string>
+
+    <string name="nav_sss">FAQ</string>
+    <string name="feedback">Please send us your feedback</string>
+
+    <string name="title_activity_sss">FAQ</string>
+    <string name="details">Details Information</string>
+    <string name="lets">Take a look at this : https://play.google.com/store/apps/details?id=com.thkskn.countries</string>
+    <string name="search">Search</string>
+
+</resources>

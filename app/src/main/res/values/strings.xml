@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Ülke Bilgileri</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2367630010898474/9205759169</string>
+    <string name="app_name_activity">Ülke Bilgileri</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="hakkinda">Hakkında</string>
+
+    <string name="acik">Açık</string>
+    <string name="kapali">Kapalı</string>
+    <string name="feedback">Lütfen uygulama hakkındaki görüşlerinizi bildiriniz</string>
+
+    <string name="rate_app">Uygulamaya puan verin</string>
+    <string name="contact_us">Bize ulaşın</string>
+    <string name="all_app">Diğer uygulamalarımız</string>
+    <string name="share_app">Tavsiye et</string>
+
+    <string name="text_close">Uyarı</string>
+    <string name="text_close_message">Çıkmak istediğinize emin misiniz?</string>
+    <string name="text_close_yes">Evet</string>
+    <string name="text_close_no">Hayır</string>
+
+    <string name="action_about">Not</string>
+    <string name="action_about_text">Çalışma devam ediyor</string><string name="action_ok">Tamam</string>
+
+    <string name="info_message" formatted="false">
+        <![CDATA[
+        Bu uygulamada ülkeler hakkında detaylı bilgiler yer almaktadır.
+            ]]>
+    </string>
+    <string name="text_version">v.1.0.5</string>
+
+    <string name="ranklabel">"No : "</string>
+    <string name="countrylabel">"Bölge Adı : "</string>
+    <string name="populationlabel">"Nüfus : "</string>
+    <string name="ecztel">"Başkent : "</string>
+    <string name="eczadr">"Alt Bölge : "</string>
+
+    <string name="nav_sss">SSS</string>
+    <string name="title_activity_sss">SSS</string>
+    <string name="details">Detaylı Bilgiler</string>
+    <string name="lets">Şuna bir göz atın : https://play.google.com/store/apps/details?id=com.thkskn.countries</string>
+    <string name="search">Ara</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

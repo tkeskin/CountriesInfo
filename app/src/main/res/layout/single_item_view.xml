@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/countries_all"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            tools:ignore="contentDescription"
+            android:src="@drawable/continent_all_big" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Test"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        card_view:contentPadding="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                tools:ignore="contentDescription"
+                android:src="@drawable/ic_capital"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:maxWidth="48dp"
+                android:maxHeight="48dp"/>
+
+            <View
+                android:id="@+id/devider"
+                android:layout_width="0.5dp"
+                android:layout_height="55dp"
+                android:background="#E0E0E0"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/devider"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="contentDescription"
+                    android:src="@drawable/ic_population"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"/>
+
+                <View
+                    android:id="@+id/devider2"
+                    android:layout_width="0.5dp"
+                    android:layout_height="55dp"
+                    android:background="#E0E0E0"
+                    android:layout_toRightOf="@id/iv2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/population"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/devider2"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="contentDescription"
+                    android:src="@drawable/ic_area"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"/>
+
+                <View
+                    android:id="@+id/devider3"
+                    android:layout_width="0.5dp"
+                    android:layout_height="55dp"
+                    android:background="#E0E0E0"
+                    android:layout_toRightOf="@id/iv3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/devider3"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="contentDescription"
+                    android:src="@drawable/ic_language"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"/>
+
+                <View
+                    android:id="@+id/devider4"
+                    android:layout_width="0.5dp"
+                    android:layout_height="55dp"
+                    android:background="#E0E0E0"
+                    android:layout_toRightOf="@id/iv4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/native_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/devider4"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="contentDescription"
+                    android:src="@drawable/ic_country_internet"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"/>
+
+                <View
+                    android:id="@+id/devider5"
+                    android:layout_width="0.5dp"
+                    android:layout_height="55dp"
+                    android:background="#E0E0E0"
+                    android:layout_toRightOf="@id/iv5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/domain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/devider5"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:ignore="contentDescription"
+                    android:src="@drawable/ic_country_phone"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"/>
+
+                <View
+                    android:id="@+id/devider6"
+                    android:layout_width="0.5dp"
+                    android:layout_height="55dp"
+                    android:background="#E0E0E0"
+                    android:layout_toRightOf="@id/iv6"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/calling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/devider6"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>
+    
+     <ImageView
+         android:id="@+id/flag"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:adjustViewBounds="true"
+         android:scaleType="centerCrop"
+         tools:ignore="contentDescription"
+         android:padding="1dp" />
+
+</LinearLayout>
